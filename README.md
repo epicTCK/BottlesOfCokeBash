@@ -8,5 +8,5 @@ To make a command for this, run
 then add 
 `alias coke = './pathTo_BottlesOfCoke.sh'`  
 
-now type `coke` in the terminal and hit enter. 
+now type `coke` in the terminal and hit enter.  
 Even funnier, go into automator and make it so that it runs everytime a folder is opened!  
