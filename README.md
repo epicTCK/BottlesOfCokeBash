@@ -2,12 +2,15 @@
 99 bottles of of whaterver you want in bash. This version only works on mac OS X. Great for pranks, or when you are bored 
 run `chmod a+x pathToFile` to make executable.  
 to run the program, type  
-`./pathToFile drinkType`  
-To make a command for this, run  
+`./pathToFile drinkType` 
+
+--Make a command for it--
 `nano ~/.bash_profile`  
 then add  
 `alias bottles = function _bottles{./pathTo_Bottles.sh  "$@";}`      
 
-now you can type `bottles` in the terminal, then `_bottles drinkType` to run at any time.  
+now you can type `bottles` in the terminal, then `_bottles drinkType` to run at any time. 
+
+But that is two commands... the lazy way to fix this is:
 hit command + ',' to get to terminal preferences. Then click on shell and put `bottles` as startup command  
 any time you type `_bottles drinkType` in the terminal now, the program will run. You now have a 99 bottles of beer program with it's own terminal command!!  
