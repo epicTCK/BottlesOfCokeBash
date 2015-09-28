@@ -6,7 +6,7 @@ to run the program, type
 To make a command for this, run  
 `nano ~/.bash_profile`  
 then add  
-`alias bottles = function _coke{./pathTo_BottlesOfCoke.sh  "$@";}`    
+`alias bottles = function _coke{./pathTo_Bottles.sh  "$@";}`    
 
 now type `bottles drinkType` in the terminal and hit enter.  
 
