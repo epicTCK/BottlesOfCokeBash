@@ -1,12 +1,12 @@
-# Bottles of Coke on the wall in Bash.
-99 bottles of beer (coke) in bash. This version only works on mac OS X. Great for pranks!   
+# Bottles of $DRINK on the wall in Bash.
+99 bottles of of whaterver you want in bash. This version only works on mac OS X. Great for pranks, or when you are bored 
 run `chmod a+x pathToFile` to make executable.  
 to run the program, type  
-`./pathToFile`  
+`./pathToFile drinkType`  
 To make a command for this, run  
 `nano ~/.bash_profile`  
-then add 
-`alias coke = './pathTo_BottlesOfCoke.sh'`  
+then add  
+`alias bottles = function _coke{./pathTo_BottlesOfCoke.sh  "$@";}`    
 
-now type `coke` in the terminal and hit enter.  
-Even funnier, go into automator and make it so that it runs everytime a folder is opened!  
+now type `bottles drinkType` in the terminal and hit enter.  
+
