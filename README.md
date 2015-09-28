@@ -6,6 +6,6 @@ to run the program, type
 To make a command for this, run
 `nano ~/.bash_profile`
 then add 
-`alias coke = './pathToBottlesOfCoke.sh'`
+`alias coke = './pathToBottlesOfCoke.sh'` 
 
 now type `coke` in the terminal and hit enter 
