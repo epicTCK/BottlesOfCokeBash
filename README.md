@@ -8,4 +8,4 @@ To make a command for this, run
 then add 
 `alias coke = './pathToBottlesOfCoke.sh'`
 
-now type `coke` in the terminal and hit enter
+now type `coke` in the terminal and hit enter 
