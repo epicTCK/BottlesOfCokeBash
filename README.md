@@ -1,4 +1,4 @@
-# BottlesOfCokeBash
+# Bottles of Coke on the wall in Bash.
 99 bottles of beer (coke) in bash. This version only works on mac OS X. Great for pranks!   
 run `chmod a+x pathToFile` to make executable.  
 to run the program, type  
